@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'devise'
-gem 'sqlite3', '~> 1.4'
 gem "bootstrap_form", "~> 4.0"
 
 # Гем для перевода сообщений девайса
