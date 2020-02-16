@@ -4,7 +4,7 @@
 class User < ActiveRecord::Base
   # Добавляем к юзеру функции Девайза, перечисляем конкретные наборы функций
   devise :database_authenticatable, :registerable,
-    :recoverable, :rememberable, :validatable
+         :recoverable, :rememberable, :validatable
 
   has_many :events
 
